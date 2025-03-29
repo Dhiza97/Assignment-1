@@ -16,27 +16,28 @@
     <div>
       <h2>Play Me!</h2>
       <audio controls autoplay loop>
-        <source src="assets/tell-me-the-truth-260010.mp3" type="audio/mpeg" />
         <source src="assets/just-relax-11157.mp3" type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
     </div>
+
     <br />
+
     <div>
       <video controls width="640" autoplay loop>
-        <source src="/assets/vid.mp4" type="video/mp4" />
+        <source src="assets/vid.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>
 
     <br /><br />
+
     <div>
       <h3>Adjust screen to change image</h3>
       <picture>
-        <source srcset="/assets/pic1.jpg" media="(min-width: 1024px)" />
-        <source srcset="/assets/pic2.jpg" media="(min-width: 768px)" />
-        <source srcset="/assets/pic3.jpg" media="(max-width: 767px)" />
-        <img src="fallback-image.jpg" alt="A picture of me" />
+        <source srcset="assets/pic1.jpg" media="(min-width: 1024px)" />
+        <source srcset="assets/pic2.jpg" media="(min-width: 768px)" />
+        <source srcset="assets/pic3.jpg" media="(max-width: 767px)" />
       </picture>
     </div>
   </body>
